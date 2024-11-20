@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include<string>
 
 using namespace std;
@@ -151,14 +151,11 @@ int main()
 	Masina* pMasina = new Masina();
 	pMasina->afisareMasina();
 	Masina* pMasina2 = new Masina("Ford", 3, new float[3] {4, 5, 6});
-	/ cout << pMasina2.getId(); /
+	 cout << pMasina2.getId(); 
 		//apelarea destructorului nu se face automat, ca in cazul celorlalte obiect, pentru ca pointerii stau pe heap, iar destructorul se triggeruieste doar pentru entitatile de pe stack;
 		delete pMasina;
 	delete pMasina2;
 
-	Masina::getNrMasini();
+	Masina::getNrMasini(); //luam nr de masini
 
-
-
-	
-}
+} */
