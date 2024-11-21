@@ -158,4 +158,4 @@ int main()
 
 	Masina::getNrMasini(); //luam nr de masini
 
-} */
+} .*/
